@@ -22,7 +22,18 @@ $(document).click(function (e) {
 
       // disable clicks
       $(document).unbind("click");
+      
+      // delay til end of song
+      setTimeout( function(){ 
 
+        // when clicked open "Many Times"
+        $("#when-you").bind("click", function (f) {
+          if (f.button == 0) {
+            open("https://www.youtube.com/watch?v=U9_z_uYT19A", target="_blank");
+          }
+        });
+      }
+        , 98000)
     }
   }
 });
