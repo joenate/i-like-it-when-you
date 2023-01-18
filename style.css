@@ -25,17 +25,6 @@
     letter-spacing: -1.5px;
   }
   
-  /* decorative gradient */
-  /* .grad {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    height: 80vh;
-    pointer-events: none;
-    background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0));
-  } */
-  
   #g {
     height: 100vh;
     overflow: hidden;
@@ -117,3 +106,15 @@
     }
   
   }
+
+  footer{
+    position: static;
+    font-size: 0.875rem;
+    color: #969696;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    margin: 16px;
+}
